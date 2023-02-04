@@ -23,7 +23,7 @@ body {
 }
 .word-scrabble{
     width: 290px;
-    margin: 9rem auto;
+    margin: 7rem auto;
     border-radius: 10px;
     background-color: var(--dark-blue);
     padding: 2rem;
@@ -89,4 +89,5 @@ button{
 }
 .check-btn{
     background-color: var(--neon-green);
+    color: var(--dark-blue);
 }
