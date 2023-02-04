@@ -48,10 +48,8 @@ body {
 .time{
     margin-top: .9rem;
 }
-form{
-    margin-top: 1.2rem;
-}
 input{
+    margin-top: 1.2rem;
     width: 100%;
     padding-left: .7rem;
     height: 40px;
@@ -76,7 +74,6 @@ input::placeholder{
 }
 button{
     width: 48%;
-    /* height: 40px; */
     border-radius: 5px;
     padding: .9em 1.2em;
     font-size: .7rem;
