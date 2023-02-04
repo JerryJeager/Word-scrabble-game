@@ -84,7 +84,15 @@ button{
 .refresh-btn{
     background-color: var(--grayish-blue);
 }
+.refresh-btn:hover {
+    transition: .4s;
+    box-shadow: 0 0 4px var(--grayish-blue);
+}
 .check-btn{
     background-color: var(--neon-green);
     color: var(--dark-blue);
+}
+.check-btn:hover {
+    transition: .4s;
+    box-shadow: 0 0 4px var(--neon-green);
 }

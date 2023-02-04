@@ -35,19 +35,15 @@ function generateRandomScrabble(inputLength) {
 }
 
 
-function checkWord() {
+checkBtn.addEventListener('click', () => {
     if (scrabbleAnswer.value.toLowerCase() !== correctWord.toLowerCase()) {
         alert(`incorrect word`)
     } else {
         alert(`congrats ${correctWord.toUpperCase()} is the correct word`)
+        scrabbleAnswer.value = ''
+        generateRandomScrabble(scrabbleAnswer)
+        defaultTime = 30
     }
-    scrabbleAnswer.value = ''
-}
-
-checkBtn.addEventListener('click', () => {
-    checkWord(scrabbleAnswer.value)
-    generateRandomScrabble(scrabbleAnswer)
-    defaultTime = 30
 })
 
 generateRandomScrabble(scrabbleAnswer)
