@@ -46,6 +46,50 @@ var wordsArr = [
     {
         word: "feather",
         hint: "a hair like covering on birds"
+    },
+    {
+        word: "addition",
+        hint: "The process of adding numbers"
+    },
+    {
+        word: "Meeting",
+        hint: "Event in which people come together"
+    },
+    {
+        word: "Exchange",
+        hint: "The act of trading"
+    },
+    {
+        word: "Garden",
+        hint: "Space for planting flower and plant"
+    },
+    {
+        word: "position",
+        hint: "Location of someone or something"
+    },
+    {
+        word: "Tongue",
+        hint: "Muscular organ of mouth"
+    },
+    {
+        word: "country",
+        hint: "A politically identified region"
+    },
+    {
+        word: "store",
+        hint: "Large shop where goods are traded"
+    },
+    {
+        word: "expansion",
+        hint: "The process of increase or growth"
+    },
+    {
+        word: "field",
+        hint: "Area of land for farming activities"
+    },
+    {
+        word: "friend",
+        hint: "Person other than a family member"
     }
 ]
 
