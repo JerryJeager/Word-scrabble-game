@@ -15,6 +15,7 @@ let defaultTime = 30
 
 window.addEventListener('load', () => {
     reduceTime(defaultTime)
+    generateRandomScrabble(scrabbleAnswer)
 })
 
 
@@ -46,7 +47,7 @@ checkBtn.addEventListener('click', () => {
     }
 })
 
-generateRandomScrabble(scrabbleAnswer)
+
 
 refreshBtn.addEventListener('click', refresh)
 
